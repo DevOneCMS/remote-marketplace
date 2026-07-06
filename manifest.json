@@ -1,0 +1,568 @@
+{
+  "name": "DevOneCMS Universal Store",
+  "version": "1.1.14",
+  "updated": "2026-07-05",
+  "description": "Starter universal marketplace registry for DevOneCMS themes, plugins, frameworks, JavaScript plugins, libraries, editors, and CDN installs.",
+  "store": {
+    "public_url": "index.html",
+    "submit_url": "submit.html",
+    "support_email": "devone@example.com",
+    "payments_enabled": false,
+    "currency": "USD"
+  },
+  "categories": [
+    {
+      "slug": "themes",
+      "label": "Themes"
+    },
+    {
+      "slug": "plugins",
+      "label": "Plugins"
+    },
+    {
+      "slug": "frameworks",
+      "label": "Frameworks"
+    },
+    {
+      "slug": "js-plugins",
+      "label": "JS Plugins"
+    },
+    {
+      "slug": "libraries",
+      "label": "Libraries"
+    },
+    {
+      "slug": "editors",
+      "label": "Editors"
+    }
+  ],
+  "items": [
+    {
+      "type": "theme",
+      "category": "themes",
+      "name": "DevOne Neon Agency",
+      "slug": "devone-neon-agency",
+      "install_folder": "devone-neon-agency",
+      "version": "1.0.0",
+      "description": "Full-width neon agency starter theme for SaaS, studios, and developer portfolios.",
+      "thumbnail": "assets/img/neon-agency.svg",
+      "featured": true,
+      "pricing": "free",
+      "price": "Free",
+      "author": "DevOneCMS",
+      "tags": [
+        "full width",
+        "agency",
+        "dark",
+        "neon"
+      ],
+      "zip_url": "packages/devone-neon-agency.zip"
+    },
+    {
+      "type": "theme",
+      "category": "themes",
+      "name": "DevOne Crystal Blog",
+      "slug": "devone-crystal-blog",
+      "install_folder": "devone-crystal-blog",
+      "version": "1.0.0",
+      "description": "Bright editorial theme for blogs, docs, knowledge bases, and clean content sites.",
+      "thumbnail": "assets/img/crystal-blog.svg",
+      "featured": true,
+      "pricing": "free",
+      "price": "Free",
+      "author": "DevOneCMS",
+      "tags": [
+        "blog",
+        "light",
+        "docs"
+      ],
+      "zip_url": "packages/devone-crystal-blog.zip"
+    },
+    {
+      "type": "theme",
+      "category": "themes",
+      "name": "DevOne Sonic Portfolio",
+      "slug": "devone-sonic-portfolio",
+      "install_folder": "devone-sonic-portfolio",
+      "version": "1.0.0",
+      "description": "Music, artist, producer, and visual portfolio theme with bold neon panels.",
+      "thumbnail": "assets/img/sonic-portfolio.svg",
+      "featured": false,
+      "pricing": "free",
+      "price": "Free",
+      "author": "DevOneCMS",
+      "tags": [
+        "music",
+        "portfolio",
+        "creative"
+      ],
+      "zip_url": "packages/devone-sonic-portfolio.zip"
+    },
+    {
+      "type": "theme",
+      "category": "themes",
+      "name": "DevOne Commerce Grid",
+      "slug": "devone-commerce-grid",
+      "install_folder": "devone-commerce-grid",
+      "version": "1.0.0",
+      "description": "Premium storefront-style theme concept for product grids, carts, and digital sales pages.",
+      "thumbnail": "assets/img/commerce-grid.svg",
+      "featured": true,
+      "pricing": "paid",
+      "price": "$29",
+      "author": "DevOneCMS",
+      "tags": [
+        "commerce",
+        "premium",
+        "storefront"
+      ],
+      "requires_checkout": true
+    },
+    {
+      "type": "plugin",
+      "category": "plugins",
+      "name": "DevOne Hello Plugin",
+      "slug": "devone-hello-plugin",
+      "install_folder": "devone-hello-plugin",
+      "version": "1.0.0",
+      "description": "Starter plugin package for testing universal plugin installs and activation flow.",
+      "thumbnail": "assets/img/hello-plugin.svg",
+      "featured": false,
+      "pricing": "free",
+      "price": "Free",
+      "author": "DevOneCMS",
+      "zip_url": "packages/devone-hello-plugin.zip"
+    },
+    {
+      "type": "plugin",
+      "category": "plugins",
+      "name": "DevOne SEO Spark Lite",
+      "slug": "devone-seo-spark",
+      "install_folder": "devone-seo-spark",
+      "version": "1.0.0",
+      "description": "Starter SEO plugin scaffold for metadata, head hooks, and future indexing tools.",
+      "thumbnail": "assets/img/seo-spark.svg",
+      "featured": false,
+      "pricing": "free",
+      "price": "Free",
+      "author": "DevOneCMS",
+      "zip_url": "packages/devone-seo-spark.zip"
+    },
+    {
+      "type": "plugin",
+      "category": "plugins",
+      "name": "DevOne Form Lite",
+      "slug": "devone-form-lite",
+      "install_folder": "devone-form-lite",
+      "version": "1.0.0",
+      "description": "Demo form plugin scaffold for future contact forms, leads, and submission modules.",
+      "thumbnail": "assets/img/form-lite.svg",
+      "featured": false,
+      "pricing": "free",
+      "price": "Free",
+      "author": "DevOneCMS",
+      "zip_url": "packages/devone-form-lite.zip"
+    },
+    {
+      "type": "plugin",
+      "category": "plugins",
+      "name": "Neon Slider Pro",
+      "slug": "neon-slider-pro",
+      "install_folder": "neon-slider-pro",
+      "version": "1.0.0",
+      "description": "Premium full-width slider plugin concept with featured marketplace placement.",
+      "thumbnail": "assets/img/neon-slider.svg",
+      "featured": true,
+      "pricing": "paid",
+      "price": "$19",
+      "author": "DevOneCMS",
+      "requires_checkout": true
+    },
+    {
+      "type": "library",
+      "category": "libraries",
+      "name": "DevOne Demo Utils",
+      "slug": "devone-demo-utils",
+      "install_folder": "devone-demo-utils",
+      "version": "1.0.0",
+      "description": "Tiny local JS/CSS utility package for testing library imports and global asset injection.",
+      "thumbnail": "assets/img/motionfx.svg",
+      "featured": false,
+      "pricing": "free",
+      "price": "Free",
+      "author": "DevOneCMS",
+      "zip_url": "packages/devone-demo-utils.zip"
+    },
+    {
+      "type": "library",
+      "category": "libraries",
+      "name": "DevOne Motion FX",
+      "slug": "devone-motion-fx",
+      "install_folder": "devone-motion-fx",
+      "version": "1.0.0",
+      "description": "Small animation helper library for testing local library package imports.",
+      "thumbnail": "assets/img/motionfx.svg",
+      "featured": false,
+      "pricing": "free",
+      "price": "Free",
+      "author": "DevOneCMS",
+      "zip_url": "packages/devone-motion-fx.zip"
+    },
+    {
+      "type": "cdn",
+      "install_mode": "cdn",
+      "category": "frameworks",
+      "name": "Bootstrap 5",
+      "slug": "bootstrap-5",
+      "version": "5.3.3",
+      "description": "Responsive CSS framework and bundled JS from jsDelivr.",
+      "thumbnail": "assets/img/bootstrap.svg",
+      "featured": true,
+      "pricing": "free",
+      "price": "Free",
+      "author": "Public CDN",
+      "assets": [
+        {
+          "label": "Bootstrap CSS",
+          "type": "css",
+          "url": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        },
+        {
+          "label": "Bootstrap JS",
+          "type": "js",
+          "url": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        }
+      ]
+    },
+    {
+      "type": "cdn",
+      "install_mode": "cdn",
+      "category": "frameworks",
+      "name": "Tailwind Play CDN",
+      "slug": "tailwind-play-cdn",
+      "version": "3.x",
+      "description": "Tailwind browser CDN script for fast prototyping.",
+      "thumbnail": "assets/img/tailwind.svg",
+      "featured": false,
+      "pricing": "free",
+      "price": "Free",
+      "author": "Public CDN",
+      "assets": [
+        {
+          "label": "Tailwind CDN",
+          "type": "js",
+          "url": "https://cdn.tailwindcss.com"
+        }
+      ]
+    },
+    {
+      "type": "cdn",
+      "install_mode": "cdn",
+      "category": "frameworks",
+      "name": "Bulma CSS",
+      "slug": "bulma-css",
+      "version": "1.0.2",
+      "description": "Clean CSS framework for fast responsive layouts.",
+      "thumbnail": "assets/img/bootstrap.svg",
+      "featured": false,
+      "pricing": "free",
+      "price": "Free",
+      "author": "Public CDN",
+      "assets": [
+        {
+          "label": "Bulma CSS",
+          "type": "css",
+          "url": "https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css"
+        }
+      ]
+    },
+    {
+      "type": "cdn",
+      "install_mode": "cdn",
+      "category": "libraries",
+      "name": "Font Awesome",
+      "slug": "font-awesome",
+      "version": "6.5.2",
+      "description": "Popular icon library loaded from cdnjs.",
+      "thumbnail": "assets/img/fontawesome.svg",
+      "featured": false,
+      "pricing": "free",
+      "price": "Free",
+      "author": "Public CDN",
+      "assets": [
+        {
+          "label": "Font Awesome CSS",
+          "type": "css",
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        }
+      ]
+    },
+    {
+      "type": "cdn",
+      "install_mode": "cdn",
+      "category": "js-plugins",
+      "name": "Swiper Slider",
+      "slug": "swiper-slider",
+      "version": "11",
+      "description": "Modern touch slider and carousel library.",
+      "thumbnail": "assets/img/swiper.svg",
+      "featured": true,
+      "pricing": "free",
+      "price": "Free",
+      "author": "Public CDN",
+      "assets": [
+        {
+          "label": "Swiper CSS",
+          "type": "css",
+          "url": "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+        },
+        {
+          "label": "Swiper JS",
+          "type": "js",
+          "url": "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
+        }
+      ]
+    },
+    {
+      "type": "cdn",
+      "install_mode": "cdn",
+      "category": "js-plugins",
+      "name": "GSAP",
+      "slug": "gsap",
+      "version": "3.12.5",
+      "description": "Professional animation library for high-impact page motion.",
+      "thumbnail": "assets/img/gsap.svg",
+      "featured": true,
+      "pricing": "free",
+      "price": "Free",
+      "author": "Public CDN",
+      "assets": [
+        {
+          "label": "GSAP JS",
+          "type": "js",
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        }
+      ]
+    },
+    {
+      "type": "cdn",
+      "install_mode": "cdn",
+      "category": "js-plugins",
+      "name": "Alpine.js",
+      "slug": "alpinejs",
+      "version": "3.x",
+      "description": "Lightweight reactive JavaScript for simple components.",
+      "thumbnail": "assets/img/alpine.svg",
+      "featured": false,
+      "pricing": "free",
+      "price": "Free",
+      "author": "Public CDN",
+      "assets": [
+        {
+          "label": "Alpine.js",
+          "type": "js",
+          "url": "https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"
+        }
+      ]
+    },
+    {
+      "type": "cdn",
+      "install_mode": "cdn",
+      "category": "js-plugins",
+      "name": "HTMX",
+      "slug": "htmx",
+      "version": "1.9.12",
+      "description": "HTML-first AJAX, swapping, and lightweight interactivity.",
+      "thumbnail": "assets/img/htmx.svg",
+      "featured": false,
+      "pricing": "free",
+      "price": "Free",
+      "author": "Public CDN",
+      "assets": [
+        {
+          "label": "HTMX JS",
+          "type": "js",
+          "url": "https://unpkg.com/htmx.org@1.9.12"
+        }
+      ]
+    },
+    {
+      "type": "cdn",
+      "install_mode": "cdn",
+      "category": "js-plugins",
+      "name": "Three.js",
+      "slug": "threejs",
+      "version": "0.165.0",
+      "description": "3D and WebGL JavaScript library for visual experiences.",
+      "thumbnail": "assets/img/threejs.svg",
+      "featured": false,
+      "pricing": "free",
+      "price": "Free",
+      "author": "Public CDN",
+      "assets": [
+        {
+          "label": "Three.js",
+          "type": "js",
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/three.js/0.165.0/three.min.js"
+        }
+      ]
+    },
+    {
+      "type": "cdn",
+      "install_mode": "cdn",
+      "category": "js-plugins",
+      "name": "Animate.css",
+      "slug": "animatecss",
+      "version": "4.1.1",
+      "description": "Drop-in CSS animations for quick UI motion.",
+      "thumbnail": "assets/img/animate.svg",
+      "featured": false,
+      "pricing": "free",
+      "price": "Free",
+      "author": "Public CDN",
+      "assets": [
+        {
+          "label": "Animate.css",
+          "type": "css",
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        }
+      ]
+    },
+    {
+      "type": "cdn",
+      "install_mode": "cdn",
+      "category": "libraries",
+      "name": "Chart.js",
+      "slug": "chartjs",
+      "version": "4.4.3",
+      "description": "Simple flexible charts for dashboards and reports.",
+      "thumbnail": "assets/img/chartjs.svg",
+      "featured": true,
+      "pricing": "free",
+      "price": "Free",
+      "author": "Public CDN",
+      "assets": [
+        {
+          "label": "Chart.js",
+          "type": "js",
+          "url": "https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"
+        }
+      ]
+    },
+    {
+      "type": "cdn",
+      "install_mode": "cdn",
+      "category": "libraries",
+      "name": "ApexCharts",
+      "slug": "apexcharts",
+      "version": "3.49.1",
+      "description": "Interactive chart library for dashboards and analytics.",
+      "thumbnail": "assets/img/apexcharts.svg",
+      "featured": false,
+      "pricing": "free",
+      "price": "Free",
+      "author": "Public CDN",
+      "assets": [
+        {
+          "label": "ApexCharts JS",
+          "type": "js",
+          "url": "https://cdn.jsdelivr.net/npm/apexcharts@3.49.1"
+        }
+      ]
+    },
+    {
+      "type": "cdn",
+      "install_mode": "cdn",
+      "category": "libraries",
+      "name": "Prism",
+      "slug": "prism",
+      "version": "1.29.0",
+      "description": "Code highlighting for documentation and developer pages.",
+      "thumbnail": "assets/img/prism.svg",
+      "featured": false,
+      "pricing": "free",
+      "price": "Free",
+      "author": "Public CDN",
+      "assets": [
+        {
+          "label": "Prism CSS",
+          "type": "css",
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css"
+        },
+        {
+          "label": "Prism JS",
+          "type": "js",
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"
+        }
+      ]
+    },
+    {
+      "type": "cdn",
+      "install_mode": "cdn",
+      "category": "libraries",
+      "name": "Highlight.js",
+      "slug": "highlightjs",
+      "version": "11.9.0",
+      "description": "Syntax highlighting for code blocks.",
+      "thumbnail": "assets/img/highlight.svg",
+      "featured": false,
+      "pricing": "free",
+      "price": "Free",
+      "author": "Public CDN",
+      "assets": [
+        {
+          "label": "Highlight.js CSS",
+          "type": "css",
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css"
+        },
+        {
+          "label": "Highlight.js JS",
+          "type": "js",
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"
+        }
+      ]
+    },
+    {
+      "type": "cdn",
+      "install_mode": "cdn",
+      "category": "editors",
+      "name": "TinyMCE",
+      "slug": "tinymce",
+      "version": "7",
+      "description": "Rich text editor CDN option for future editor integrations.",
+      "thumbnail": "assets/img/tinymce.svg",
+      "featured": false,
+      "pricing": "free",
+      "price": "Free",
+      "author": "Public CDN",
+      "assets": [
+        {
+          "label": "TinyMCE JS",
+          "type": "js",
+          "url": "https://cdn.jsdelivr.net/npm/tinymce@7/tinymce.min.js"
+        }
+      ]
+    },
+    {
+      "type": "cdn",
+      "install_mode": "cdn",
+      "category": "editors",
+      "name": "Monaco Editor",
+      "slug": "monaco-editor",
+      "version": "0.49.0",
+      "description": "VS Code-style editor foundation for future code editing tools.",
+      "thumbnail": "assets/img/monaco.svg",
+      "featured": false,
+      "pricing": "free",
+      "price": "Free",
+      "author": "Public CDN",
+      "assets": [
+        {
+          "label": "Monaco Loader",
+          "type": "js",
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.49.0/min/vs/loader.min.js"
+        }
+      ]
+    }
+  ]
+}
