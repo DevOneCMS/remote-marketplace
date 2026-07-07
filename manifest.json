@@ -552,7 +552,7 @@
   "id": "devone-commerce",
   "install_folder": "devone-commerce",
   "folder": "devone-commerce",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "WooCommerce-style ecommerce plugin for DevOneCMS with products, physical products, digital downloads, services, variations, tax, shipping, cart modal checkout, saved orders, Stripe, PayPal, and Test/Live gateway modes.",
   "short_description": "WooCommerce-style ecommerce for DevOneCMS with products, cart modal checkout, orders, Stripe, PayPal, tax, shipping, and receipt emails.",
   "thumbnail": "assets/img/devone-commerce-icon.png",
@@ -578,10 +578,10 @@
     "physical-products",
     "services"
   ],
-  "zip_url": "packages/DevOne-CommerceVer.1.0.0.zip",
-  "download_url": "packages/DevOne-CommerceVer.1.0.0.zip",
+  "zip_url": "packages/DevOne-CommerceVer.1.0.1.zip",
+  "download_url": "packages/DevOne-CommerceVer.1.0.1.zip",
   "download": "packages/DevOne-CommerceVer.1.0.0.zip",
-  "file": "DevOne-CommerceVer.1.0.0.zip",
+  "file": "DevOne-CommerceVer.1.0.1.zip",
   "sha256": "29bdcfcb227d98f9ec85346b2b9b552ac9b6f35f63012501c0556073a3c9390f",
   "size": 659823
 },
